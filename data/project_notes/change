@@ -1,0 +1,20 @@
+# Changelog
+
+- CP4 → Final:
+  - Removed players with <500 minutes played
+  - Consolidated traded players into single rows
+  - Standardized efficiency metrics (PER, WS/48, BPM)
+  - Added manual role labels (Elite, Starter, Role)
+
+- CP5 → CP6:
+  - Selected top 10 features based on correlation and domain relevance
+  - Built multiple linear regression model to estimate tier scores
+
+- CP6 → CP7:
+  - Switched to Gradient Boosted Classification
+  - Tuned hyperparameters for max depth and learning rate
+  - Achieved 100% test accuracy
+
+- CP7 → CP8:
+  - Finalized figures and cleaned up workbook
+  - Added reproducibility notes and README
